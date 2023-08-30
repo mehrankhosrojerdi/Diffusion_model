@@ -33,7 +33,11 @@ Another piece of information that could be useful is a context embedding. Contex
   
 ![](docs/images/embeding.png)
   
-## Training
+## Training  
+  
+Here the qustion is, how we train this UNet neural network and get it to predict noise? 
+
+![](docs/images/Training_NN.png)
 
 ## Controling
 
