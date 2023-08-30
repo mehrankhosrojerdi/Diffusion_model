@@ -35,8 +35,9 @@ Another piece of information that could be useful is a context embedding. Contex
   
 ## Training  
   
-Here the qustion is, how we train this UNet neural network and get it to predict noise? 
-
+Here the qustion is, how we train this UNet neural network and get it to predict noise?  
+we take a sprite from our training data, and we actually add noise to it. Then we give it to the neural network, and we ask the neural network to predict that noise. Following that we compare the predicted noise against the actual noise that was added to that image, and that's how we compute the loss. And that backprops through the neural network, so then the neural network learns to predict that noise better.  
+  
 ![](docs/images/Training_NN.png)
 
 ## Controling
